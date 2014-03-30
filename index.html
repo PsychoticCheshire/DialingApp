@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
   <head>
+	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/script.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
     <style>
     #email{
@@ -12,16 +14,21 @@
     </style>
   </head>
 <body>
+<div id="content">
+<select id="selNumber">
 <div data-role="page">
 
   <div data-role="header">
-    <h1>Q-N-D</h1>
+    <h1>Dialing App</h1>
   </div>
   
   <div data-role="main" class="ui-content">
     <div data-role="collapsible" id="email" >
     <h1>Choose from below</h1>
-    <a href="tel:14847534123">Kyle</a><br>
+    <a href="tel:14847534123">Kyle Wilson</a><br>
+    <a href="tel:12158479123">Jason Poole</a><br>
+    <a href="tel:17179264438">Ryan Montgomery</a><br>
+    <a href="tel:16109090525">Sean Sweeney</a><br>
     </div>
   </div>
   
@@ -29,6 +36,8 @@
     <h1><a href="http://pitcourses.blogspot.com" style="text-decoration: none">Abbas' Course</a></h1>
   </div>
   
+</div>
+</select>
 </div>
 </body>
 </html> 
